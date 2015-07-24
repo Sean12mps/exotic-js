@@ -49,10 +49,12 @@ By defaults, exotic.js comes with it's own js object. This object is still on de
 This object, uses the same way to run as your normal exotic variables. It's executed in jQuery( document ).ready() event, so you'll
 have many chances to overide the object, or even disable it.
 
+Stop autorunning typography defaults
 `
-// Stop autorunning typography defaults
 _exotic.autorun.typography = false;
+`
 
-// Edit typography value
+Edit typography value
+`
 _exotic.base.typography.h1 = { 'fontSize' : '4em' };
 `
