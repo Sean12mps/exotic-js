@@ -40,9 +40,14 @@ styleMaster.run();
 - Should you need to overide some of your object's property, you can also run the function with a new object argument.
 - This function uses jQuery.extend() method.
 
-`
-styleMaster.run( { 'a' : { 'width' : '2em', 'display' : 'block' } } );
-`
+```
+styleMaster.run( { 
+	'a' : { 
+		'width' : '2em', 
+		'display' : 'block' 
+	} 
+} );
+```
 
 ## Defaults
 By defaults, exotic.js comes with it's own js object. This object is still on development, since I'm not sure of what to add there.
