@@ -5,7 +5,7 @@ My solution for cutting down css usage.
 - Create an object that contains css selector or selectors as it's attribute.
 - Create a new variable of exotic, with your object thrown into it as the function's parameter.
 
-`
+```
 var custom_style = {
 	'body' : {
 		'backgroundColor' : 'rgba( 0, 0, 0, 1 )',
@@ -28,7 +28,7 @@ var custom_style = {
 	}
 };
 var styleMaster = new exotic( customStyle );
-`
+```
 
 - Wherever you feel like it, most of the time it'll be at the end of a document, or on jQuery( document ).ready() event, you have to run the function.
 - This would assign all of your element with an inline css object.
